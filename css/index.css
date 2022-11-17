@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* ..........start header ....................*/
+.header{
+    background-color: rgb(58, 141, 236);
+    color: white
+    height: 50px;
+    /* توسيط الكتابة بنص الدف */
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 25px;   
+}
+.header a{
+    margin-top: 7px;
+    float: right;
+    cursor: pointer;
+}
+
+span a:hover{
+    color: rgba(243, 26, 196, 0.822);
+    text-decoration: none;
+}
+.navbar{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+nav img{
+    width: 60px;
+}
+.navbar h3{ 
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* ..........End header ....................*/
+
+/* ..........start slider ....................*/
+.carousel{
+    margin-top: -20px;
+} 
+
+.carousel-indicators li{
+    height: 7px;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(86, 181, 219, 0.493);
+    position: absolute;
+    z-index: 1;
+}
+
+.carousel-item img{
+    height: 400px;
+}
+
+/* ..........End slider ....................*/
+
+/* ..........start feutures ....................*/
+.feutures {
+    margin: auto; 
+    background-color: #eee;
+    padding: 20px;
+}
+
+.row .content-f{
+    display: inline-block;
+    border: 2px solid blue;
+    margin: auto;
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; 
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.row .content-f:hover{
+    border: 2px solid blue ;
+    box-shadow: 3px 3px 10px rgb(146, 146, 230);
+    transform: translateX(3px);
+    background-color: rgba(62, 130, 219, 0.568);
+    transform: translatex(2);
+}
+
+.feutures h2{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.feutures i{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    line-height: 100px;
+    color: white;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.feutures h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.feutures p{
+    color: blue;
+    line-height: 1.8;
+}
+
+/* ..........End  feutures ....................*/
+
+/* ..........start Our team ...........*/
+.our-team{
+    margin: auto; 
+    margin-top: 10px;
+    background-color: #eee;
+    padding: 40px;
+    background-image: url('../images/backg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 197, 197);
+    border-top: 1px solid rgb(211, 197, 197);
+}
+.our-team h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.row .carder{
+    display: inline-block;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer; 
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+/* ..........End Our team ...........*/
+
+/* ..........start statistic ...........*/
+.statistic{
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/backg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    border-bottom: 1px solid rgb(211, 197, 197);
+    border-top: 1px solid rgb(211, 197, 197);
+    overflow: auto;
+}
+.statistic .overflow{
+    padding-top: 150px;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.377);
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+}
+
+.statistic .overlay h3{
+    color: white;
+}
+.statistic .overlay p{
+    color: white;
+    font-size: 50px;
+}
+.statistic .overlay span{
+    color: white;
+    font-size: 25px;
+    font-weight: 30px;
+}
+/* ..........End statistic ...........*/
+
+/* ..........start Our customer ...........*/
+.our-customers {
+    margin-top: 10px;
+    background-color: #eee;
+    line-height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 197, 197);
+    border-top: 1px solid rgb(211, 197, 197);
+}
+
+.our-customers h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.our-customers .container{
+    margin: auto;
+    margin-left: 170px;
+    padding-bottom: 15px;
+}
+.our-customers .container img{
+    width: 100px;
+    text-align: center;
+}
+
+/* ..........End Our customer ...........*/
+
+/* ..........start recent news ...........*/
+.recent-news{
+    margin-top: 10px;
+    background-color: #eee;
+    margin-bottom: -15px;
+}
+.recent-news h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+.recent-news .btn{
+    background-color: rgb(70, 197, 247);
+    border-color: rgb(70, 191, 247);
+}
+.recent-news .btn:hover{
+    background-color: blueviolet;
+}
+/* ..........End recent news ...........*/
+
+/* ..........start footer  ...........*/
+footer{
+    background-color: rgb(82, 182, 185);
+    padding: 30px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+footer p{
+    padding-top: 20px;
+}
+footer a{
+    color: white;
+}
+footer a i{
+    font-size: 20px;
+}
+footer .row{
+    margin-top: 20px;
+}
+footer ul {
+    list-style-type: none; 
+    text-decoration: none;
+}
+footer ul li a:hover{
+    text-decoration: none;
+}
+.footer1{
+    margin-bottom: -20px;
+}
+.footer1 p {
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+.footer1 p a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+/* ..........End footer  ...........*/
+
+/* ..........srart blogs  ...........*/
+
+.jumbotron{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.jumbotron .blog_info{
+    flex: 2;
+}
+.blog_image{
+    display: flex;
+}
+.jumbotron .blog_image{
+    flex: 1;
+}
+.blog_details p{
+    line-height: 2;
+    padding: 10px;
+}
+/* ..........End blogs  ...........*/
+
+.card-body .btn{
+    width: 50%;
+    display: flex;
+}
+
+
+/* ..........start courses  ...........*/
+
+
+/* ..........End courses  ...........*/
+
+.courses .card{
+    overflow: hidden;
+}
+.courses img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.fa-star {
+    color: gold;
+}
